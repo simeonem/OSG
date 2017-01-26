@@ -62,7 +62,7 @@ result = ipak(packages)
 if(!result) {
 
 	cat(sprintf("\n\nPackage load failures !!!!!!!!!!!!\n"))
-	#stop()
+	stop()
 } else
 {
 	cat(sprintf("\n\nPackage load successful ============\n\n"))
